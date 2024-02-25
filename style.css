@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    background-color: black;
+} */
+
+/* Hero Start */
+
+.hero {
+    background-image: url('Media/Images/BackgroundImage.jpg');
+    /* background-size: cover; */
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    /* height: 90vh; */
+    height: 774px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.hero button {
+    margin: 0px auto;
+}
+
+/* Hero End */
+
+/* Navbar */
+
+.navbar {
+    color: white;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.navbar .nav-item .nav-link {
+    color: lightgray;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: white;
+}
+
+/* Navbar end */
+
+
+
+/* Classes Section */
+
+.classes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* background-color: black; */
+}
+
+.classes h1 {
+    text-align: center;
+}
+
+.classes .card {
+    margin-bottom: 30px;
+}
+
+/* Classes Section End */
+
+/* Contact US */
+
+#contact-us {
+    width: 60vw;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* border: 1.6px solid gray; */
+}
+
+@media only screen and (max-width: 777px) {
+    #contact-us {
+        width: 90vw;
+    }
+}
+
+/* Contact US Section End */
+
+/* Footer */
+
+footer {
+    /* background-color: rgb(62, 62, 82); */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* Footer End */
