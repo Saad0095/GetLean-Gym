@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+
+} */
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
-/* body {
-    background-color: black;
-} */
 
 /* Hero Start */
 
@@ -15,8 +22,13 @@
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
-    /* height: 90vh; */
     height: 774px;
+}
+
+@media only screen and (max-width: 777px) {
+    .hero {
+        height: 100vh;
+    }
 }
 
 .hero-content {
@@ -27,6 +39,11 @@
     color: white;
     text-align: center;
     margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-content p {
+    font-size: 18px;
 }
 
 .hero button {
@@ -39,19 +56,24 @@
 
 .navbar {
     color: white;
+    
 }
 
 .navbar .navbar-brand {
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: bolder;
     font-size: 24px;
 }
 
 .navbar .nav-item .nav-link {
     color: lightgray;
+    color: #f2f2f2;
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar .nav-item .nav-link:hover {
@@ -61,17 +83,16 @@
 /* Navbar end */
 
 
-
 /* Classes Section */
 
 .classes {
     margin-top: 50px;
     margin-bottom: 50px;
-    /* background-color: black; */
 }
 
 .classes h1 {
     text-align: center;
+    padding: 15px;
 }
 
 .classes .card {
@@ -80,10 +101,29 @@
 
 /* Classes Section End */
 
+/* Reviews Section */
+
+.reviews-section h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+/* Reviews Section */
+
+/* Membership Section */
+
+.membership-section h1 {
+    font-size: 36px;
+    padding: 10px;
+}
+
+/* Membership Section End */
+
+
 /* Contact US */
 
 #contact-us {
-    width: 60vw;
+    width: 50vw;
     margin-top: 60px;
     margin-bottom: 60px;
     /* border: 1.6px solid gray; */

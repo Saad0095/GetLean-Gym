@@ -9,6 +9,9 @@
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- AOS Animation CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +21,6 @@
 
         <!-- Navbar Start-->
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: none;">
-            <!-- <div class="container-fluid"> -->
             <div class="container">
                 <a class="navbar-brand" href="#">GetLean Gym</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -35,10 +37,13 @@
                             <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#reviews">Classes</a>
+                            <a class="nav-link" href="#classes">Classes</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#facilities">Facilities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#membership">Mmbership</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact-us">Contact Us</a>
@@ -49,13 +54,15 @@
 
         <!-- Navbar End -->
 
-        <div class="hero-content">
-            <h1 class="">Achieve Your Fitness Goals with GETLEAN Gym</h1>
-            <p class="">Transform your body and mind with our state-of-the-art facilities and expert trainers.</p>
-            <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Join Now</a> -->
-            <button type="button" class="btn btn-primary">Join Now</button>
+        <div class="hero-content ">
+            <div data-aos="fade-up" data-aos-duration="3000">
 
+                <h1 class="">Achieve Your Fitness Goals with GETLEAN Gym</h1>
+                <p class="">Transform your body and mind with our state-of-the-art facilities and expert trainers.</p>
+                <button type="button" class="btn btn-primary">Join Now</button>
+            </div>
         </div>
+
     </div>
 
     <!-- Hero End -->
@@ -63,6 +70,8 @@
 
     <!-- Classes Section -->
     <div class="container classes">
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
+
         <h1>Our Classes</h1>
         <div class="row">
             <div class="col-md-4">
@@ -96,6 +105,7 @@
                 </div>
             </div>
         </div>
+        </div>
     </div>
 
     <!-- Classes Section End -->
@@ -104,68 +114,157 @@
         <hr>
     </div>
 
-    <!-- Membership Section --> <!-- ****   Incomplete    **** -->
+    <!-- Reviews Section -->
 
-    <div class="container membership-section">
+    <div class="container reviews-section">
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
+
+        <h1>Testimonials</h1>
+        <div class="row ">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border">
+                    <div class="card-body">
+                        <h5 class="card-title mb-0">Sarah J. <span
+                                class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h5>
+                        <p class="card-text mt-2">"Top-notch facilities and supportive trainers make GetLean Gym an
+                            outstanding place to achieve your fitness goals."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border">
+                    <div class="card-body">
+                        <h5 class="card-title mb-0">Mike L. <span
+                                class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span></h5>
+                        <p class="card-text mt-2">"Friendly staff, fun classes, and great results! GetLean Gym is
+                            where
+                            I found my confidence."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border">
+                    <div class="card-body">
+                        <h5 class="card-title mb-0">Emily R. <span
+                                class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h5>
+                        <p class="card-text mt-2">"Unmatched equipment variety, impeccable facility cleanliness, and
+                            professional staff. GetLean Gym has it all!"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border">
+                    <div class="card-body">
+                        <h5 class="card-title mb-0">John D. <span
+                                class="text-warning">&#9733;&#9733;&#9733;&#9734;&#9734;</span></h5>
+                        <p class="card-text mt-2">"Great gym with a wide range of equipment. The atmosphere is
+                            energetic
+                            and motivating."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border">
+                    <div class="card-body">
+                        <h5 class="card-title mb-0">Lisa M. <span
+                                class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h5>
+                        <p class="card-text mt-2">"I've tried several gyms, but none compare to GetLean Gym. The
+                            staff
+                            is friendly and helpful, and the facilities are always clean."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border">
+                    <div class="card-body">
+                        <h5 class="card-title mb-0">John S. <span
+                                class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h5>
+                        <p class="card-text mt-2">"GetLean Gym is hands down the best gym I've ever been to. I've
+                            seen
+                            amazing results since joining, and I highly recommend it to anyone looking to achieve
+                            their
+                            fitness goals."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Reviews Section End -->
+
+    <div class="container" style="margin-top: 70px; margin-bottom: 70px;">
+        <hr>
+    </div>
+
+    <!-- Membership Section -->
+
+    <div id="membership" class="container membership-section">
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
+
         <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-            <h1 class="display-4 fw-normal">Heading</h1>
-            <p class="fs-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorum id rerum,
-                sunt cum quis laudantium, obcaecati, optio labore saepe quisquam. Debitis impedit quos officiis tempore
-                at, rerum consequuntur dolorem.</p>
+            <h1 class="display-4 fw-normal">Membership Options</h1>
+            <p class="fs-5 text-muted">Welcome to GetLean Gym, where we're dedicated to helping you achieve your
+                fitness aspirations. Explore our membership options below and select the plan that best suits your
+                needs.</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
             <div class="col">
                 <div class="card mb-4 rounded-3 shadow-sm">
                     <div class="card-header py-3">
-                        <h4 class="my-0 fw-normal">Free</h4>
+                        <h4 class="my-0 fw-normal">Basic Membership</h4>
                     </div>
                     <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                        <h1 class="card-title pricing-card-title">$10<small class="text-muted fw-light">/mo</small></h1>
                         <ul class="list-unstyled mt-3 mb-4">
-                            <li>10 users included</li>
-                            <li>2 GB of storage</li>
-                            <li>Email support</li>
-                            <li>Help center access</li>
+                            <li>Access to our state-of-the-art gym facilities</li>
+                            <li>Unlimited use of cardio and strength training equipment</li>
+                            <li>Locker room and shower facilities</li>
+                            <li> Discounted rates on group fitness classes</li>
                         </ul>
-                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up monthly</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card mb-4 rounded-3 shadow-sm">
                     <div class="card-header py-3">
-                        <h4 class="my-0 fw-normal">Pro</h4>
+                        <h4 class="my-0 fw-normal">Premium Membership</h4>
                     </div>
                     <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                        <h1 class="card-title pricing-card-title">$100<small class="text-muted fw-light">/year</small>
+                        </h1>
                         <ul class="list-unstyled mt-3 mb-4">
-                            <li>20 users included</li>
-                            <li>10 GB of storage</li>
-                            <li>Priority email support</li>
-                            <li>Help center access</li>
+                            <li>All benefits of Basic Membership</li>
+                            <li>Unlimited access to group fitness classes, including yoga, spin, and HIIT</li>
+                            <li>One complimentary personal training session per month</li>
+                            <li>Access to exclusive member events and workshops</li>
                         </ul>
-                        <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Sign up yearly</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card mb-4 rounded-3 shadow-sm border-primary">
                     <div class="card-header py-3 text-white bg-primary border-primary">
-                        <h4 class="my-0 fw-normal">Enterprise</h4>
+                        <h4 class="my-0 fw-normal">VIP Membership</h4>
                     </div>
                     <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                        <h1 class="card-title pricing-card-title">$200<small class="text-muted fw-light">/year</small>
+                        </h1>
                         <ul class="list-unstyled mt-3 mb-4">
-                            <li>30 users included</li>
-                            <li>15 GB of storage</li>
-                            <li>Phone and email support</li>
-                            <li>Help center access</li>
+                            <li>All benefits of Premium Membership</li>
+                            <li>Unlimited access to our premium amenities, such as sauna and steam room</li>
+                            <li>Priority booking for personal training sessions and specialty classes</li>
+                            <li>Complimentary towel service and refreshments</li>
                         </ul>
-                        <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Sign up yearly</button>
                     </div>
                 </div>
             </div>
+        </div>
+        
         </div>
     </div>
 
@@ -178,6 +277,8 @@
     <!-- Contact Us -->
 
     <div id="contact-us" class="container-fluid">
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
+
         <h1 class="text-center">Contact Us</h1>
         <form>
             <div class="mb-3">
@@ -197,6 +298,7 @@
             </div>
             <button type="submit" class="btn btn-dark w-100">Submit</button>
         </form>
+        </div>
     </div>
 
     <!-- Contact Us End -->
@@ -210,9 +312,16 @@
     <!-- Footer End -->
 
 
+    <!-- Bootstrap CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <!-- AOS Animation CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <script src="script.js"></script>
 </body>
