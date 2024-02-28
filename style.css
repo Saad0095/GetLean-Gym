@@ -56,7 +56,7 @@
 
 .navbar {
     color: white;
-    
+
 }
 
 .navbar .navbar-brand {
@@ -108,7 +108,27 @@
     padding: 15px;
 }
 
+
+@media only screen and (max-width: 688px) {
+    .sm-hide {
+        display: none;
+    }
+}
+
 /* Reviews Section */
+
+/* FAQs Section */
+
+.accordion-header {
+    font-weight: 700;
+}
+
+.accordion h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+/* FAQs Section End */
 
 /* Membership Section */
 
@@ -116,6 +136,7 @@
     font-size: 36px;
     padding: 10px;
 }
+
 
 /* Membership Section End */
 
@@ -129,7 +150,7 @@
     /* border: 1.6px solid gray; */
 }
 
-@media only screen and (max-width: 777px) {
+@media only screen and (max-width: 850px) {
     #contact-us {
         width: 90vw;
     }
