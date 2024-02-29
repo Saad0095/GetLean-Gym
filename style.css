@@ -23,6 +23,7 @@
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
     height: 774px;
+
 }
 
 @media only screen and (max-width: 777px) {
@@ -78,6 +79,17 @@
 
 .navbar .nav-item .nav-link:hover {
     color: white;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        position: absolute;
+        /* right: 5%; */
+        right: 7%;
+
+        top: 10px;
+
+    }
 }
 
 /* Navbar end */
