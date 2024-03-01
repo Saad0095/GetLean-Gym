@@ -113,22 +113,6 @@
 
 /* Classes Section End */
 
-/* Reviews Section */
-
-.reviews-section h1 {
-    text-align: center;
-    padding: 15px;
-}
-
-
-@media only screen and (max-width: 688px) {
-    .sm-hide {
-        display: none;
-    }
-}
-
-/* Reviews Section */
-
 /* FAQs Section */
 
 .accordion-header {
@@ -153,22 +137,22 @@
 /* Membership Section End */
 
 
-/* Contact US */
+/* Membership */
 
-#contact-us {
-    width: 50vw;
+#registration-form {
+    width: 70vw;
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     /* border: 1.6px solid gray; */
 }
 
 @media only screen and (max-width: 850px) {
-    #contact-us {
+    #registration-form {
         width: 90vw;
     }
 }
 
-/* Contact US Section End */
+/* Membership End */
 
 /* Footer */
 
