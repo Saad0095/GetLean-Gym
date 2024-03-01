@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap');
 
-/* {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
-
-} */
-
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +25,7 @@
     }
 }
 
-.hero-content {
+.hero-content{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -71,7 +64,6 @@
     color: lightgray;
     color: #f2f2f2;
     font-size: 18px;
-    /* font-family: "Roboto", sans-serif; */
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -84,9 +76,7 @@
 @media (max-width: 991.98px) {
     .navbar-toggler {
         position: absolute;
-        /* right: 5%; */
         right: 7%;
-
         top: 10px;
 
     }
@@ -94,6 +84,25 @@
 
 /* Navbar end */
 
+/* About Us */
+
+#about_us {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.about-para1 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+/* About Us End */
 
 /* Classes Section */
 
@@ -113,6 +122,38 @@
 
 /* Classes Section End */
 
+/* Membership Section */
+
+.membership-section h1 {
+    font-size: 36px;
+    padding: 10px;
+}
+
+/* Membership Section End */
+
+/* Facilities Section */
+
+.feature-item {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+}
+
+#facilities h1 {
+    font-size: 36px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/* Facilities Section End */
+
 /* FAQs Section */
 
 .accordion-header {
@@ -124,18 +165,8 @@
     padding: 15px;
 }
 
+
 /* FAQs Section End */
-
-/* Membership Section */
-
-.membership-section h1 {
-    font-size: 36px;
-    padding: 10px;
-}
-
-
-/* Membership Section End */
-
 
 /* Membership */
 
@@ -169,3 +200,9 @@ footer {
 }
 
 /* Footer End */
+
+@media only screen and (max-width: 480px) {
+    .accordion h1, #facilities h1, .membership-section h1, .classes h1, #about_us h1, #registration-form h1, #contact_us h1 {
+        font-size: 25px;
+    }
+}
