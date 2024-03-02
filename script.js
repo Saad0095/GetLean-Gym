@@ -17,6 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Invalid email address. Email should contain @");
             return;
         }
-        alert("Member added successfully");
+        alert("Your details have been submitted successfully");
     });
 });

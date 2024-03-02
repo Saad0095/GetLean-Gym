@@ -9,8 +9,8 @@ This website serves as the online platform for GetLean Gym, offering information
 ## Contributors
 
 - Talha Shahzad
-- Muhammad Hassan
 - Muhammad Saad Bin Khalid
+- Muhammad Hassan
 
 ## Technologies Used
 
