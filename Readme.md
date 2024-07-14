@@ -34,12 +34,3 @@ No installation is required to access the website. Simply visit the URL of the w
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For any inquiries or support, please contact:
-
-- Talha Shahzad: talha.shahzadshaikh@gmail.com
-- Muhammad Saad Bin Khalid: saadbinkhalid1895@gmail.com
-- Muhammad Hassan: raufhassan84@gmail.com
-
